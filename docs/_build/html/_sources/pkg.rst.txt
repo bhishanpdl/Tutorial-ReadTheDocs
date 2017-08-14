@@ -4,18 +4,18 @@ pkg package
 Submodules
 ----------
 
-pkg\.bar1 module
-----------------
+pkg\.hello module
+-----------------
 
-.. automodule:: pkg.bar1
+.. automodule:: pkg.hello
     :members:
     :undoc-members:
     :show-inheritance:
 
-pkg\.foo1 module
-----------------
+pkg\.hi module
+--------------
 
-.. automodule:: pkg.foo1
+.. automodule:: pkg.hi
     :members:
     :undoc-members:
     :show-inheritance:

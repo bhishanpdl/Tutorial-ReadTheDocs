@@ -18,7 +18,7 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('..'))
+sys.path.insert(0, os.path.abspath('..')) # Note two dots
 
 
 # -- General configuration ------------------------------------------------
@@ -51,9 +51,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'autodoc-example'
-copyright = u'2016, Eric Beahan'
-author = u'Eric Beahan'
+project = u'sphinx-example'
+copyright = u'2017, Bhishan Poudel'
+author = u'Bhishan Poudel'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -263,7 +263,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'autodoc-example.tex', u'autodoc-example Documentation',
-     u'Eric Beahan', 'manual'),
+     u'Bhishan Poudel', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -339,7 +339,3 @@ texinfo_documents = [
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #
 # texinfo_no_detailmenu = False
-
-
-
-

@@ -27,20 +27,20 @@ from .foo1 import foo1
 from .pkg import Pkg
 from .pkg import foo
 ```
-**note**
+**Note**
 
   Use `from .pkg import foo` instead of `from pkg import foo`.
 
 To make documentation using sphinx and to integrate github docs to
 read the docs we should do following things
 
-  1. First Copy this `rtd_example` to pwd.
-  2. Replace scripts and edit index.rst files.
-  3. To create automatic rst
-    + `sphinx-apidoc -o docs pkg`
-    + copy contents of `modules.rst` to `index.rst` and
-      change `modules.rst` according to your taste.
-  4. cd docs
-  5. make clean; make html
-  6. Upload the repo to the github and wait some time for
+  + First Copy this `rtd_example` to pwd.
+  + Replace scripts and edit index.rst files.
+  + To create automatic rst
+      - `sphinx-apidoc -o docs pkg`
+      - copy contents of `modules.rst` to `index.rst` and
+        change `modules.rst` according to your taste.
+  + cd docs
+  + make clean; make html
+  + Upload the repo to the github and wait some time for
     read the docs building.

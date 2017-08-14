@@ -1,5 +1,5 @@
 def hello():
-    '''Returns the string 'foo'.
+    '''Returns the string 'hello'.
 
     >>> hello()
     'hello'

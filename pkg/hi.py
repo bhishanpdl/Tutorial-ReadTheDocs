@@ -1,7 +1,7 @@
 def hi():
-    '''Returns the string 'bar'.
+    '''Returns the string 'hi'.
 
-    >>> bar()
+    >>> hi()
     'hi'
     '''
     return 'hi'

@@ -6,6 +6,7 @@ Package example
 
    pkg
 
+
 Indices and tables
 ==================
 

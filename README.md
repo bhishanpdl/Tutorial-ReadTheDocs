@@ -28,6 +28,6 @@ from .pkg import Pkg
 from .pkg import foo
 ```
 
-.. note::
+**note**
 
   Use `from .pkg import foo` instead of `from pkg import foo`.

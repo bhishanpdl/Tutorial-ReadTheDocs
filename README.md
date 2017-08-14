@@ -12,22 +12,35 @@ python -c """import sphinx; print(sphinx.__version__)"""
 ```
 
 #### Usage
-Use the following instructions to automatically build HTML documentation from the repo.
-Suppose we have a package **pkg** and a main package script
-`pkg/pkg.py` and two supporting scripts `foo1.py` and `bar1.py`.  
+In this example we have three scripts.
+  + pkg/foo1.py
+  + pkg/bar1.py
+  + pkg.py (with class Pkg and function foo)
 
-We want to build these scripts.
+And one initializer file:
+  + pkg/__init__.py.
 
-First we create a initializer script `pkg/__init__.py` with
-contents
-
+The contents of `__init__.py` goes like this
 ```py
 from .bar1 import bar1
 from .foo1 import foo1
 from .pkg import Pkg
 from .pkg import foo
 ```
-
 **note**
 
   Use `from .pkg import foo` instead of `from pkg import foo`.
+
+To make documentation using sphinx and to integrate github docs to
+read the docs we should do following things
+
+  1. First Copy this `rtd_example` to pwd.
+  2. Replace scripts and edit index.rst files.
+  3. To create automatic rst
+    + `sphinx-apidoc -o docs pkg`
+    + copy contents of `modules.rst` to `index.rst` and
+      change `modules.rst` according to your taste.
+  4. cd docs
+  5. make clean; make html
+  6. Upload the repo to the github and wait some time for
+    read the docs building.

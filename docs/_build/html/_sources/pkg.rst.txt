@@ -20,6 +20,14 @@ pkg\.foo1 module
     :undoc-members:
     :show-inheritance:
 
+pkg\.pkg module
+---------------
+
+.. automodule:: pkg.pkg
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 
 Module contents
 ---------------

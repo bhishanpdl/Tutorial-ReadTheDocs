@@ -1,8 +1,12 @@
-Using Sphinx and Read The Docs
-===============================
+# Step 1: Prerequisites
+- Go to your conda environment.
+- Install sphinx. `python -c """import sphinx; print(sphinx.__version__)""" # 1.7.9`
+- Install read the docs theme `pip install sphinx_rtd_theme`. `python -c """import sphinx_rtd_theme as rtd; print(rtd.__version__)""" # 0.4.3`
+- We need these versions in `requirements.txt` file.
 
-Basic repo demonstrating usage of Sphinx documentation and
-ReadTheDocs integration.
+# Step 2: Download this repos as an template
+- We will need Makefile, and need to change requirements.txt.
+- We will change the source python scripts.
 
 
 # Using read the docs

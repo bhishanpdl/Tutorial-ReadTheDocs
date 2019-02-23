@@ -4,6 +4,20 @@ Using Sphinx and Read The Docs
 Basic repo demonstrating usage of Sphinx documentation and
 ReadTheDocs integration.
 
+
+# Using read the docs
+- Sign in to your [read the docs](https://readthedocs.org/dashboard/).
+- Click `Import a Project`.
+- `Import Manually`.
+- Name: `Bhishans ReadTheDocs`. It must be unique to read the docs website.
+- Repo: `https://github.com/bhishanpdl/Tutorial-ReadTheDocs`
+- Edit advanced project options: `yes`.
+- Choose language `Python`.
+- Click Build button and after build up, click view the docs.
+- From now on, it is always hosted in read the docs website.
+
+
+
 #### Requires:
 Sphinx 1.5.6
 
